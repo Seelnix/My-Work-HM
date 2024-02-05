@@ -65,9 +65,15 @@ h1{
     background: linear-gradient(black, 70%, red);
 }
 
+.gip {
+    border: 5px solid red;
+    background: linear-gradient(rgb(131, 0, 0), 15%, black);
+padding: 10px;
+}
+
 .gip1{
     margin: 0 auto;
-    color: red;
+    color: rgb(255, 106, 0);
     text-decoration: underline;
     letter-spacing: 3px;
     font-size: 30px;
@@ -80,7 +86,7 @@ h1{
     margin: 0 auto;
     font-size: 20px;
     text-align: justify;
-    color: #8f0000;
+    color: #ff0000;
     width: 1200px;
 }
 
@@ -88,38 +94,44 @@ h1{
     letter-spacing: 2px;
     font-size: 25px;
     padding: 0px 0px 10px;
-    color: rgb(141, 0, 0)
+    color: rgb(226, 1, 1)
 }
+
 .gip4{
     width: 1200px;
     margin: 0 auto;
     font-size: 20px;
-    background: firebrick;
     color: white;
     text-align: justify;
     padding: 10px;
 }
 
+.carbon{
+    border: 5px solid blue;
+    background: linear-gradient(aqua, 40%, blue);
+}
+
 .carbon1{
     color: black;
-    text-transform: uppercase;
-    letter-spacing: 3px;
     text-decoration: underline;
-    padding: 8px 0px 15px
+    letter-spacing: 3px;
     font-size: 30px;
+    padding: 8px 0px 15px;
+    text-transform: uppercase;
 }
 
 .carbon2{
-    color: aqua;
+    padding: 10px;
     margin: 0 auto;
-    width: 1200px;
     font-size: 20px;
     text-align: justify;
+    color: aqua;
+    width: 1200px;
 }
 
 .carbon3{
     letter-spacing: 2px;
-    color: rgb(147, 106, 213);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     padding: 10px 0px 10px;
 }
@@ -128,19 +140,23 @@ h1{
     text-align: justify;
     width: 1200px;
     margin: 0 auto;
-    font-size: 20px;
-    background-color: #35c3e7;
-    color: blue;
+    font-size: 20px;;
+    color: rgb(192, 255, 1);
     padding: 10px;
 }
 
+.sheep{
+    border: 5px solid silver;
+    background: linear-gradient(rgb(0, 0, 0), 60%, rgb(6, 86, 6));
+}
+
 .sheep1{
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
     text-decoration: underline;
-    padding: 8px 0px 15px
+    letter-spacing: 3px;
     font-size: 30px;
+    padding: 8px 0px 15px;
+    text-transform: uppercase;
 }
 
 .sheep2{
@@ -148,14 +164,14 @@ h1{
     width: 1200px;
     font-size: 20px;
     text-align: center;
-    color: #095b14;
+    color: #00b017;
     text-align: justify;
 }
 
 .sheep3{
     font-size: 25px;
     padding: 10px 0px 5px;
-    color: forestgreen;
+    color: rgb(255, 255, 255);
     letter-spacing: 2px
 }
 
@@ -164,7 +180,8 @@ h1{
     margin: 0 auto;
     width: 1200px;
     font-size: 20px;
-    background-color: #095b14;
     color: #04ff00;
     padding: 10px;
 }
+
+
