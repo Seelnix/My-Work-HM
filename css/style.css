@@ -14,7 +14,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, button {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -22,7 +22,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -45,142 +44,107 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-.bag{
-    margin: 0 auto;
-    text-align: center;
-    background:black;
+.page{
+	background: rgb(245, 254, 243);
+	font-family: 'Nunito Sans', sans-serif;
+}
+.container{
+	width: 1100px;
+	margin: 0 auto;
 }
 
-a{
-    color: yellow;
+.header{
+	background: black;
+    color: lightcyan;
+	text-align: center;
+	padding: 20px 0;
 }
 
-h1{
-    font-size: 45px;
-    letter-spacing: 3px;
-    font-weight: 600px;
-    color: gold;
-    background: linear-gradient(black, 70%, red);
+.header h1{
+	font-weight: 700;
+	font-size: 40px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.header a{
+	color: lightyellow;
+	font-size: 18px;
+	text-decoration: none;
+}
+.table-data{
+	margin: 30px 0 0;
+	width: 100%;
+	border-style: hidden;
+	box-shadow: 0 0 0 1px #e4e4ef;
+	border-radius: 8px;
 }
 
-.gip {
-    border: 5px solid red;
-    background: linear-gradient(rgb(131, 0, 0), 15%, black);
-padding: 10px;
+.user, .email{
+	width: 400px;
 }
 
-.gip1{
-    margin: 0 auto;
-    color: rgb(255, 106, 0);
-    text-decoration: underline;
-    letter-spacing: 3px;
-    font-size: 30px;
-    padding: 8px 0px 15px;
-    text-transform: uppercase;
+.phone{
+	width: 160px;
 }
 
-.gip2{
-    padding: 10px;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: justify;
-    color: #ff0000;
-    width: 1200px;
+.table-data th{
+	padding: 18px 16px;
+	text-align: left;
+	font-weight: 700;
 }
 
-.gip3{
-    letter-spacing: 2px;
-    font-size: 25px;
-    padding: 0px 0px 10px;
-    color: rgb(226, 1, 1)
+.table-data td{
+	padding: 8px 16px;
+	vertical-align: middle;
 }
 
-.gip4{
-    width: 1200px;
-    margin: 0 auto;
-    font-size: 20px;
-    color: white;
-    text-align: justify;
-    padding: 10px;
+.last{
+	text-align: center;
 }
 
-.carbon{
-    border: 5px solid blue;
-    background: linear-gradient(aqua, 40%, blue);
+.table-data td p + p{
+	font-size: 12px;
+	line-height: 20px;
+	color: #808080;
+}
+.table-data th, 
+.table-data td{
+	border-top: 1px solid #e4e4ef;
+}
+.button{
+    color: #BDBCDB;
+	background: #F8F9FB;
+	font-size: 12px;
+	padding: 8px 24px;
+	cursor: pointer;
+	border-radius: 12px;
+}
+.button.blue{
+	color: #605DEC;
+	background: #EDEDFE;
+}  
+.button.green{
+color: #31AA27;
+background: #EBF6EB;
 }
 
-.carbon1{
-    color: black;
-    text-decoration: underline;
-    letter-spacing: 3px;
-    font-size: 30px;
-    padding: 8px 0px 15px;
-    text-transform: uppercase;
+.button.yellow{
+color: #E99518;
+background: #FFF4E4;
+}
+.button.red{
+color: #F93232;
+background: #FFF0F0;
 }
 
-.carbon2{
-    padding: 10px;
-    margin: 0 auto;
-    font-size: 20px;
-    text-align: justify;
-    color: aqua;
-    width: 1200px;
+.mondriana{
+	font-size: 45px;
+	margin: 10px auto;;
 }
 
-.carbon3{
-    letter-spacing: 2px;
-    color: rgb(255, 255, 255);
-    font-size: 25px;
-    padding: 10px 0px 10px;
+.mondriana td{
+	border: 4px solid red;
+	text-align: center;
+	width: 150px;
+	height: 100px;
 }
-
-.carbon4{
-    text-align: justify;
-    width: 1200px;
-    margin: 0 auto;
-    font-size: 20px;;
-    color: rgb(192, 255, 1);
-    padding: 10px;
-}
-
-.sheep{
-    border: 5px solid silver;
-    background: linear-gradient(rgb(0, 0, 0), 60%, rgb(6, 86, 6));
-}
-
-.sheep1{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    letter-spacing: 3px;
-    font-size: 30px;
-    padding: 8px 0px 15px;
-    text-transform: uppercase;
-}
-
-.sheep2{
-    margin: 0 auto;
-    width: 1200px;
-    font-size: 20px;
-    text-align: center;
-    color: #00b017;
-    text-align: justify;
-}
-
-.sheep3{
-    font-size: 25px;
-    padding: 10px 0px 5px;
-    color: rgb(255, 255, 255);
-    letter-spacing: 2px
-}
-
-.sheep4{
-    text-align: justify;
-    margin: 0 auto;
-    width: 1200px;
-    font-size: 20px;
-    color: #04ff00;
-    padding: 10px;
-}
-
-
