@@ -1,5 +1,5 @@
-*{
-    box-sizing: border-box;
+* {
+	box-sizing: border-box;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -20,7 +20,7 @@ time, mark, audio, video, button {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: top;
 }
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -44,107 +44,99 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.page{
-	background: rgb(245, 254, 243);
-	font-family: 'Nunito Sans', sans-serif;
-}
-.container{
-	width: 1100px;
+
+.container {
+	width: 1200px;
 	margin: 0 auto;
 }
 
-.header{
-	background: black;
-    color: lightcyan;
-	text-align: center;
-	padding: 20px 0;
+div.main-box {
+	margin: 20px auto;
 }
 
-.header h1{
-	font-weight: 700;
-	font-size: 40px;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-.header a{
-	color: lightyellow;
-	font-size: 18px;
-	text-decoration: none;
-}
-.table-data{
-	margin: 30px 0 0;
-	width: 100%;
-	border-style: hidden;
-	box-shadow: 0 0 0 1px #e4e4ef;
-	border-radius: 8px;
+.main-box div {
+	outline: 2px solid red;
 }
 
-.user, .email{
+.first_box {
+	background: rgb(2, 61, 255);
+	font-size: 0;
+}
+
+.first_box > div {
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	font-size: 20px;
+}
+.second_box {
+	font-size: 0;
+	background: rgb(0, 255, 76);
+}
+.second_box > div {
+	display: inline-block;
+	font-size: 20px;
+	width: 800px;
+}
+.second_box > div + div {
 	width: 400px;
 }
-
-.phone{
-	width: 160px;
+.second_box1 > div {
+	height: 200px;
+}
+.second_box2 > div {
+	height: 133.333px;
 }
 
-.table-data th{
-	padding: 18px 16px;
-	text-align: left;
-	font-weight: 700;
+
+
+
+.third_box {
+	font-size: 0;
+	background: orange;
 }
 
-.table-data td{
-	padding: 8px 16px;
-	vertical-align: middle;
+.third_box1{
+    display: inline-block;}
+.third_box1 > div {
+	font-size: 20px;
+	width: 400px;
+    height: 400px;}
+
+.third_box2{
+    display: inline-block;
+    width: 800px;
+    height: 400px;
 }
 
-.last{
-	text-align: center;
+.third_box2up > div {
+    display: inline-block;
+    width: 800px;
+    height: 200px;
+    font-size: 20px;
+    vertical-align: top;
 }
 
-.table-data td p + p{
-	font-size: 12px;
-	line-height: 20px;
-	color: #808080;
+.third_box2bot{
+    display: inline-block;
+    width: 800px;
+    height: 200px;
+    vertical-align: bottom;
 }
-.table-data th, 
-.table-data td{
-	border-top: 1px solid #e4e4ef;
+.third_box2bot_left{
+    display: inline-block;
 }
-.button{
-    color: #BDBCDB;
-	background: #F8F9FB;
-	font-size: 12px;
-	padding: 8px 24px;
-	cursor: pointer;
-	border-radius: 12px;
-}
-.button.blue{
-	color: #605DEC;
-	background: #EDEDFE;
-}  
-.button.green{
-color: #31AA27;
-background: #EBF6EB;
+.third_box2bot_left > div {
+    width: 400px;
+    height: 200px;
+    font-size: 20px;
 }
 
-.button.yellow{
-color: #E99518;
-background: #FFF4E4;
-}
-.button.red{
-color: #F93232;
-background: #FFF0F0;
-}
+.third_box2bot_right{    
+    display: inline-block;}
 
-.mondriana{
-	font-size: 45px;
-	margin: 10px auto;;
-}
-
-.mondriana td{
-	border: 4px solid red;
-	text-align: center;
-	width: 150px;
-	height: 100px;
+.third_box2bot_right > div {
+    width: 400px;
+    height: 100px;
+    font-size: 20px;
 }
