@@ -1,44 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Cards_Float</title>
+    <title>WebStudio</title>
 </head>
 <body>
-    <div class="container">
-        <div class="first_block clearfix">
-            <div class="first_child">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit porro quibusdam vel quam, consectetur accusamus beatae ad ducimus doloremque neque quis, commodi eaque repellat hic. Sit voluptates sint exercitationem debitis?
-            </div>
-            <div class="first_child">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum reprehenderit inventore, explicabo at laborum, ipsa omnis, minus nobis sit iusto ullam! Pariatur esse sapiente est corrupti odio aliquam eum molestias?
-            </div>
-            <div class="first_child">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil corporis cupiditate molestias dolore qui debitis assumenda fugit voluptatibus vel soluta temporibus similique tempora nisi eos, sapiente sed perspiciatis suscipit.
-            </div>
-        </div>
-        <div class="second_block clearfix">
-            <div class="second_block_left">
-                <div class="second_child_left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis ex repudiandae reprehenderit fugit sequi laboriosam officia unde quis, sint laborum iste! Cum, modi nesciunt maxime illo distinctio incidunt omnis.</div>
-                <div class="second_child_left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis ex repudiandae reprehenderit fugit sequi laboriosam officia unde quis, sint laborum iste! Cum, modi nesciunt maxime illo distinctio incidunt omnis.</div>
-            </div>
-            <div class="second_block_right">
-                <div class="second_child_right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis ex repudiandae reprehenderit fugit sequi laboriosam officia unde quis, sint laborum iste! Cum, modi nesciunt maxime illo distinctio incidunt omnis.</div>
-                <div class="second_child_right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis ex repudiandae reprehenderit fugit sequi laboriosam officia unde quis, sint laborum iste! Cum, modi nesciunt maxime illo distinctio incidunt omnis.</div>
-                <div class="second_child_right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat debitis ex repudiandae reprehenderit fugit sequi laboriosam officia unde quis, sint laborum iste! Cum, modi nesciunt maxime illo distinctio incidunt omnis.</div>
-            </div>
-        </div>
-        <div class="third_block clearfix">
-            <div class="third_block_left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum amet placeat porro facilis sint accusantium doloribus eos voluptatum harum quis, ratione, magnam qui ducimus asperiores atque debitis. At, suscipit? Nulla.</div>
-            <div class="third_block_right">
-                <div class="third_block_r_up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quo dolores ab cumque! Voluptatem ut quibusdam distinctio ab adipisci obcaecati modi recusandae dolor enim reiciendis, voluptatum aliquam, molestiae asperiores. Ducimus?</div>
-                <div class="third_block_r_but">
-                    <div class="third_block_r_l_but">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni corrupti vitae dignissimos ullam quis amet laboriosam deleniti aperiam vel tenetur, mollitia consequuntur incidunt asperiores minima animi et ipsum voluptates consequatur.</div>
-                    <div class="third_block_r_r_but">
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique porro cum expedita perferendis quos?</div>
-                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi similique porro cum expedita perferendis quos?</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Header -->
+	<header class="header">
+		<div class="container header_container">
+			<a class="header_logo" href="#">
+				<img src="images/logo.svg" alt="WebStudio" width="145" height="31">
+			</a>
+
+			<ul class="header_menu">
+				<li class="header_menu_item">
+					<a class="active" href="#">Studio</a>
+				</li>
+				<li class="header_menu_item">
+					<a href="portfolio.html">Portfolio</a>
+				</li>
+				<li class="header_menu_item">
+					<a href="#">Contacts</a>
+				</li>
+			</ul>
+
+			<ul class="header_list">
+				<li class="header_list_item">
+					<a href="mailto:info@devstudio.com">info@devstudio.com</a>
+				</li>
+				<li class="header_list_item">
+					<a href="tel:+380961111111">+38 096 111 11 11</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+    
+    <main>
+        <!-- Hero -->
+		<section class="hero">
+			<div class="container">
+				<div class="hero_box">
+					<h1 class="hero_title">Effective solutions for your business</h1>
+					<button class="hero_btn">Order service</button>
+				</div>
+			</div>
+		</section>
+
+        <!-- Details -->
+        <section class="details">
+			<div class="container">
+				<div class="details_cards">
+					<!-- card item -->
+					<div class="details_card">
+						<h2 class="details_card_title">Attention to detail</h2>
+						<p class="details_card_desc">Ideological considerations, as well as the beginning of the daily work of forming a position.</p>
+					</div>
+					<!-- card item -->
+					<div class="details_card">
+						<h2 class="details_card_title">Punctuality</h2>
+						<p class="details_card_desc">The task of the organization, in particular the scope and location of personnel training, entails.</p>
+					</div>
+					<!-- card item -->
+					<div class="details_card">
+						<h2 class="details_card_title">Planning</h2>
+						<p class="details_card_desc">Equally, consultation with a broad asset is largely conditional.</p>
+					</div>
+					<!-- card item -->
+					<div class="details_card">
+						<h2 class="details_card_title">Modern technologies</h2>
+						<p class="details_card_desc">The significance of these problems is so obvious that the implementation of planned targets.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+        		<!-- WORK -->
+		<section class="work">
+			<div class="container">
+				<h2 class="work_title subtitle">What are we doing</h2>
+				<div class="work_cards">
+					<div class="work_card">
+						<img src="images/work_1.jpg" alt="content image" width="370" height="294">
+					</div>
+					<div class="work_card">
+						<img src="images/work_2.jpg" alt="content image" width="370" height="294">
+					</div>
+					<div class="work_card">
+						<img src="images/work_3.jpg" alt="content image" width="370" height="294">
+					</div>
+				</div>
+			</div>
+		</section>
+
+        <!-- TEAM -->
+		<section class="team">
+			<div class="container">
+				<h2 class="team_title subtitle">Our team</h2>
+
+				<div class="team_cards">
+					<!-- 1 -->
+					<div class="team_card">
+						<img class="team_card_image" src="images/team_1.jpg" alt="Igor Demyanenko" width="270" height="260">
+						<h3 class="team_card_title">Igor Demyanenko</h3>
+						<p class="team_card_desc">Product Designer</p>
+					</div>
+					<!-- 2 -->
+					<div class="team_card">
+						<img class="team_card_image" src="images/team_2.jpg" alt="Igor Demyanenko" width="270" height="260">
+						<h3 class="team_card_title">Olga Repina</h3>
+						<p class="team_card_desc">Frontend Developer</p>
+					</div>
+					<!-- 3 -->
+					<div class="team_card">
+						<img class="team_card_image" src="images/team_3.jpg" alt="Igor Demyanenko" width="270" height="260">
+						<h3 class="team_card_title">Nikolay Tarasov</h3>
+						<p class="team_card_desc">Marketing</p>
+					</div>
+					<!-- 4 -->
+					<div class="team_card">
+						<img class="team_card_image" src="images/team_4.jpg" alt="Igor Demyanenko" width="270" height="260">
+						<h3 class="team_card_title">Mikhail Ermakov</h3>
+						<p class="team_card_desc">UI Designer</p>
+					</div>
+
+				</div>
+			</div>
+		</section>
+    </main>
+
+    <footer class="footer">
+		<div class="container">
+			<a class="footer_logo" href="#">
+				<img src="images/footer_logo.svg" alt="footer_logo" width="145" height="31">
+			</a>
+			<address class="footer_address">
+				<p>Kharkov, Pobedy Ave., 26</p>
+				<a href="mailto:info@example.com">info@example.com</a>
+				<a href="tel:+380991111111">+38 099 111 11 11</a>
+			</address>
+		</div>
+	</footer>
 </body>
 </html>
